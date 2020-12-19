@@ -1,0 +1,113 @@
+body, html { 
+    height: 100%; 
+    margin: 0px; 
+}
+li{
+    color: #ff69b4;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    color: #d8bfd8;
+}
+a{
+    font-family: cursive;
+    color: #d8bfd8;
+    text-decoration: none;
+}
+.info{
+    display: flex;
+    top: 100px;
+    left: 50px;
+}
+.heading-2{
+    position: absolute;
+    top: 10px;
+    left: 690px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-image: url("bgImg.jpg");
+    height: 325px;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.about{
+    background-image: url("bgImg-about.png");
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.heading{
+    position: absolute;
+    top: 80px;
+    left: 630px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #483d8b;
+    padding: 15px;
+
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    color: #d8bfd8;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    border: 1px solid #808080;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: cursive;
+}
+.info{ 
+    background-image: url("bgImg-contact.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+a:link{
+    color: #ff69b4;
+}
+a:visited{
+    color: royalblue;
+}
+.origami:hover{
+    transform: scale(1.1);
+}
+
